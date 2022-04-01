@@ -1,6 +1,6 @@
-﻿using SingleResponsibility.Repository;
+﻿using OpenClosed.Repository;
 
-namespace SingleResponsibility.Persistence
+namespace OpenClosed.Persistence
 {
     public class OrderRepository : IOrderRepository
     {

@@ -1,6 +1,8 @@
-﻿namespace SingleResponsibility.Repository
+﻿using System;
+
+namespace SingleResponsibility.Repository
 {
-    public interface IOrderRepository
+    public interface IOrderRepository : IDisposable
     {
         
     }
